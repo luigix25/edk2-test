@@ -385,7 +385,7 @@ Returns:
 
   *BaseAddress  = FirmwareVolumeHob.FirmwareVolume2->BaseAddress;
   *Length       = FirmwareVolumeHob.FirmwareVolume2->Length;
-  EfiCommonLibCopyMem(FileName,&FirmwareVolumeHob.FirmwareVolume2->FileName,sizeof(EFI_GUID));
+  SctCopyMem(FileName,&FirmwareVolumeHob.FirmwareVolume2->FileName,sizeof(EFI_GUID));
 
   *HobStart     = GET_NEXT_HOB (FirmwareVolumeHob);
 

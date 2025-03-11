@@ -15,7 +15,6 @@
 
 
 //#include "TianoCommon.h"
-//#include "EfiCommonLib.h"
 //#include "EfiPrintLib.h"
 #include "Print.h"
 #include "SctLib.h"

@@ -253,16 +253,6 @@ OBJECTS = $(OBJECTS) \
 DEST_OUTPUT_DIRS = $(OUTPUT_DIR) 
 
 #
-# Tool-generated list of libraries that are generated
-# from the list of libraries listed in the [libraries.*] sections
-# of the component INF file.
-#
-LIBS = $(LIBS)     \
-       $(LIB_DIR)\EdkCompatibilityPkg\Foundation\Efi\Guid\EfiGuidLib\OUTPUT\EfiGuidLib.lib    \
-       $(LIB_DIR)\EdkCompatibilityPkg\Foundation\Efi\Protocol\EfiProtocolLib\OUTPUT\EfiProtocolLib.lib    \
-       $(LIB_DIR)\EdkCompatibilityPkg\Foundation\Library\EfiCommonLib\EfiCommonLib\OUTPUT\EfiCommonLib.lib
-
-#
 # ORIGIN: [Build.X64.???] section of the platform DSC file
 #
 # If this driver supports localization, then we need to run our tools on
